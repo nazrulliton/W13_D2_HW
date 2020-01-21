@@ -37,9 +37,9 @@ public class DataLoader implements ApplicationRunner {
         Folder picture = new Folder("Picture files", dave);
         folderRepository.save(picture);
 
-        Folder movie = new Folder("movie files", dave);
+        Folder movie = new Folder("movie files", john);
         folderRepository.save(movie);
-        Folder music = new Folder("music files", dave);
+        Folder music = new Folder("music files", john);
         folderRepository.save(music);
 
         File dayOne = new File("hw from d1", "txt", 5, homework);

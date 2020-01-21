@@ -2,6 +2,7 @@ package com.codeclan.example.mtrack.models;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.omg.CORBA.PUBLIC_MEMBER;
 
 import javax.persistence.*;
 
@@ -31,6 +32,10 @@ public class File {
         this.extension = extension;
         this.size = size;
         this.folder = folder;
+    }
+
+    public File(){
+
     }
 
     public Long getId() {
@@ -72,7 +77,5 @@ public class File {
     public void setFolder(Folder folder) {
         this.folder = folder;
     }
-
-
-
+    
 }
