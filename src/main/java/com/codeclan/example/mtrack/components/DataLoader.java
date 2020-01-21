@@ -53,9 +53,9 @@ public class DataLoader implements ApplicationRunner {
         fileRepository.save(picTwo);
 
 
-         File movOne = new File("mov 1", "mp4", 50, movie);
+         File movOne = new File("mov 1", "mp", 50, movie);
         fileRepository.save(movOne);
-        File movtwo = new File("mov 2", "mp4", 50, movie);
+        File movtwo = new File("mov 2", "mp", 50, movie);
         fileRepository.save(movtwo);
 
          File mp3One = new File("hw from d1", "txt", 5, music);
