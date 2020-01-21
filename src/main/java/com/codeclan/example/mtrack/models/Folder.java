@@ -65,4 +65,10 @@ public class Folder {
     public void setFiles(List<File> files) {
         this.files = files;
     }
+
+    public void addFiles(File file){
+        this.files.add(file);
+    }
+
+
 }
