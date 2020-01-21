@@ -25,7 +25,7 @@ public class File {
     @ManyToOne
     @JoinColumn(name = "folder_id", nullable = false)
     private Folder folder;
-   
+
 
 
 
